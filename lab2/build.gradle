@@ -25,11 +25,7 @@ repositories {
 }
 
 dependencies {
-//    compile files('libs/Pokemon.jar')
-//    implementation files('libs/Pokemon.jar')
-//    implementation files('/media/ilya/7CC6D763C6D71C68/Source/Java/lab2/libs/Pokemon.jar')
     implementation files('libs/Pokemon.jar')
-//    runtimeOnly files('libs/Pokemon.jar')
 }
 
 
