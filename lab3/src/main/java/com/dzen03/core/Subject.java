@@ -1,5 +1,7 @@
 package com.dzen03.core;
 
+import java.util.Objects;
+
 public abstract class Subject extends Thing{
     private FaceType face;
 
@@ -52,5 +54,18 @@ public abstract class Subject extends Thing{
         this.doActions(subject, action);
 
         return subject;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Subject subject = (Subject) o;
+        return face == subject.face;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(face);
     }
 }

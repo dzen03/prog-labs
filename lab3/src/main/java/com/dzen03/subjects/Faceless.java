@@ -15,4 +15,19 @@ public class Faceless extends Person {
         Action guess = new Action(ActionType.GUESS, useless);
         return this.doAction(this, guess);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

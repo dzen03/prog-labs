@@ -14,4 +14,19 @@ public class Giants extends Subject {
         Action stand = new Action(ActionType.BE, times);
         return this.doAction(this, stand);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

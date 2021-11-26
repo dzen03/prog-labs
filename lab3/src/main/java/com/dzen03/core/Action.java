@@ -56,4 +56,12 @@ public class Action {
     public int hashCode() {
         return Objects.hash((Object) things);
     }
+
+    @Override
+    public String toString() {
+        return "Action{" +
+                "things=" + Arrays.toString(things) +
+                ", type=" + type +
+                '}';
+    }
 }

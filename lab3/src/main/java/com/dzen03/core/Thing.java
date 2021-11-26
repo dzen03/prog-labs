@@ -1,5 +1,8 @@
 package com.dzen03.core;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class Thing implements Everything{
     private String name;
     private Description[] descriptions;
@@ -57,5 +60,20 @@ public class Thing implements Everything{
     @Override
     public Object doAction(Object thing, Action actions) {
         return thing;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Thing thing = (Thing) o;
+        return Objects.equals(name, thing.name) && Arrays.equals(descriptions, thing.descriptions);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(name);
+        result = 31 * result + Arrays.hashCode(descriptions);
+        return result;
     }
 }

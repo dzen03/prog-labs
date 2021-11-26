@@ -20,5 +20,19 @@ public class Conditions extends Subject {
         return this.doActions(this, prevent, hold);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
 //    хотя по всем приметам некие особые атмосферные условия в этом таинственном районе препятствовали переменам,

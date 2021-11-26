@@ -17,4 +17,19 @@ public class View extends Subject {
         Action equals = new Action(ActionType.EQUALS, LeicaDesc);
         return this.doAction(this, equals);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
