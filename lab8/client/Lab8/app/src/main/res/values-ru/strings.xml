@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лаба8</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="settings">Настройки</string>
+    <string name="chooseCommand">Выберите команду</string>
+    <string name="settingsIncorrect">Проверьте данные</string>
+    <string name="run">Запустить</string>
+    <string name="edit_this">Вы уверены, что хотите изменить строку номер %s?</string>
+    <string name="yes">Да</string>
+    <string name="error">Ошибка</string>
+    <string name="edit">Изменить</string>
+    <string name="loading">Загрузка</string>
+    <string name="draw">Рисунок</string>
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="remove">Удалить</string>
+</resources>

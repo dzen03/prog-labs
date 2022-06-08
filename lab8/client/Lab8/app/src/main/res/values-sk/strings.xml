@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="next">Ďalšie</string>
+    <string name="previous">Predchádzajúce</string>
+    <string name="login">Prihlásenie</string>
+    <string name="password">Heslo</string>
+    <string name="save">Uložiť</string>
+    <string name="settings">Nastavenie</string>
+    <string name="chooseCommand">Vyberte príkaz</string>
+    <string name="settingsIncorrect">Skontrolujte svoje údaje</string>
+    <string name="run">Obsluhovať</string>
+    <string name="edit_this">Naozaj chcete upraviť riadok číslo %s?</string>
+    <string name="yes">Áno</string>
+    <string name="error">Chyba</string>
+    <string name="edit">Upraviť</string>
+    <string name="loading">Načítava</string>
+    <string name="draw">Obrázok</string>
+    <string name="choose_language">Vyberte jazyk</string>
+    <string name="remove">Odstrániť</string>
+</resources>

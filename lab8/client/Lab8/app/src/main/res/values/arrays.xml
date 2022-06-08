@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="commands">
+        <item>@string/chooseCommand</item>
+        <item>help</item>
+        <item>info</item>
+        <item>show</item>
+        <item>add</item>
+        <item>update</item>
+        <item>remove_by_id</item>
+        <item>clear</item>
+        <item>execute_script</item>
+        <item>remove_first</item>
+        <item>shuffle</item>
+        <item>remove_lower</item>
+        <item>min_by_meters_above_sea_level</item>
+        <item>count_less_than_governor</item>
+        <item>filter_starts_with_name</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>@string/choose_language</item>
+        <item>Русский</item>
+        <item>Slovenský</item>
+        <item>Shqipe</item>
+        <item>Canadian English</item>
+    </string-array>
+</resources>

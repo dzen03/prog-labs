@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="next">Tjetra</string>
+    <string name="previous">E mëparshme</string>
+    <string name="login">Identifikohu</string>
+    <string name="password">Fjalëkalimi</string>
+    <string name="save">Ruaj</string>
+    <string name="settings">Cilësimet</string>
+    <string name="chooseCommand">Zgjidhni komandën</string>
+    <string name="settingsIncorrect">Kontrolloni të dhënat tuaja</string>
+    <string name="run">Vraponi</string>
+    <string name="edit_this">Jeni i sigurt, doni të redaktoni rreshtin numër %s?</string>
+    <string name="yes">Po</string>
+    <string name="error">Gabim</string>
+    <string name="edit">Redakto</string>
+    <string name="loading">Po ngarkohet</string>
+    <string name="draw">Foto</string>
+    <string name="choose_language">Zgjidhni gjuhën</string>
+    <string name="remove">Hiq</string>
+</resources>

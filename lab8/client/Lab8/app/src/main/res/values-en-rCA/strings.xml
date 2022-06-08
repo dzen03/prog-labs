@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings☺</string>
+    <string name="chooseCommand">Choose command</string>
+    <string name="settingsIncorrect">Check your data</string>
+    <string name="run">Run</string>
+    <string name="edit_this">Are you sure, you want to edit row number %s?</string>
+    <string name="yes">Yes</string>
+    <string name="error">Error</string>
+    <string name="edit">Edit</string>
+    <string name="loading">Loading</string>
+    <string name="draw">Draw</string>
+    <string name="choose_language">Choose language</string>
+    <string name="remove">Remove</string>
+</resources>
